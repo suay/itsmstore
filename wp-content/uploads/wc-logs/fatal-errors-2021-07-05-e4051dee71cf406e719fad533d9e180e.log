@@ -1,0 +1,4 @@
+2021-07-05T11:58:31+07:00 CRITICAL Cannot redeclare confirmDelete() (previously declared in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-switch.php:133) in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-switch.php on line 132
+
+2021-07-05T06:34:20+00:00 CRITICAL syntax error, unexpected 'Are' (T_STRING) in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-switch.php on line 138
+

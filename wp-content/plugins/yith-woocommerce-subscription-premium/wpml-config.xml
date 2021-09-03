@@ -1,0 +1,28 @@
+<wpml-config>
+    <admin-texts>
+        <key name="ywsbs_add_to_cart_label" />
+        <key name="ywsbs_show_trial_period_text" />
+        <key name="ywsbs_show_fee_text" />
+        <key name="ywsbs_place_order_label" />
+        <key name="ywsbs_show_trial_period_text_on_cart" />
+        <key name="ywsbs_total_subscription_length_text" />
+        <key name="ywsbs_show_next_billing_date_text" />
+        <key name="ywsbs_show_next_billing_date_text_for_trial" />
+        <key name="ywsbs_text_pause_subscription_dropdown" />
+        <key name="ywsbs_text_resume_subscription_dropdown" />
+        <key name="ywsbs_text_cancel_subscription_dropdown" />
+        <key name="ywsbs_text_pause_subscription_modal" />
+        <key name="ywsbs_text_pause_subscription_button" />
+        <key name="ywsbs_text_resume_subscription_modal" />
+        <key name="ywsbs_text_resume_subscription_button" />
+        <key name="ywsbs_text_resume_subscription_close_button" />
+        <key name="ywsbs_text_cancel_subscription_modal" />
+        <key name="ywsbs_text_cancel_subscription_button" />
+        <key name="ywsbs_text_repay_subscription_modal" />
+        <key name="ywsbs_text_repay_subscription_button" />
+        <key name="ywsbs_text_close_modal" />
+        <key name="ywsbs_text_switch_plan" />
+        <key name="ywsbs_text_buy_new_plan" />
+        <key name="ywsbs_text_new_plan_on_cart" />
+    </admin-texts>
+</wpml-config>

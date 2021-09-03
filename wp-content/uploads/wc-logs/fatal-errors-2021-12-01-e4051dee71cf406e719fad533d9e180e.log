@@ -1,0 +1,7 @@
+2021-12-01T02:53:57+00:00 CRITICAL Uncaught Error: Class 'FcfVendor\Psr\Log\InvalidArgumentException' not found in C:\xampp\htdocs\itsmstore4\wp-content\plugins\flexible-checkout-fields\vendor_prefixed\monolog\monolog\src\Monolog\Logger.php:440
+Stack trace:
+#0 C:\xampp\htdocs\itsmstore4\wp-content\plugins\flexible-checkout-fields\vendor_prefixed\monolog\monolog\src\Monolog\Logger.php(253): FcfVendor\Monolog\Logger::getLevelName('===============...')
+#1 C:\xampp\htdocs\itsmstore4\wp-content\plugins\flexible-checkout-fields\vendor_prefixed\monolog\monolog\src\Monolog\Logger.php(523): FcfVendor\Monolog\Logger->addRecord('===============...', 'notice', Array)
+#2 C:\xampp\htdocs\itsmstore4\wp-content\plugins\flexible-checkout-fields\vendor_prefixed\wpdesk\wp-logs\src\WC\WooCommerceMonologPlugin.php(68): FcfVendor\Monolog\Logger->log('===============...', 'notice', Array)
+#3 C:\xampp\htdocs\itsmstore4\wp-content\plugins\flexible-checkout-fields\vendor_prefixed\wpdesk\wp-logs\src\WC\WooCommerceMonologPlugin.php(52): FcfVendor\WPDesk\Logger\WC\WooComm in C:\xampp\htdocs\itsmstore4\wp-content\plugins\flexible-checkout-fields\vendor_prefixed\monolog\monolog\src\Monolog\Logger.php on line 440
+

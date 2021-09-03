@@ -1,0 +1,4 @@
+2021-07-01T09:38:54+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-switch.php on line 53
+
+2021-07-01T09:54:39+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-switch.php on line 290
+

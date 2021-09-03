@@ -1,0 +1,63 @@
+2021-08-24T03:43:15+00:00 CRITICAL Uncaught Error: Object of class YWSBS_Subscription could not be converted to string in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-actions.php:90
+Stack trace:
+#0 C:\xampp\htdocs\itsmstore4\wp-content\plugins\woocommerce\includes\wc-core-functions.php(346): include()
+#1 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\includes\class.ywsbs-subscription-my-account.php(533): wc_get_template('myaccount/ywsbs...', Array, '', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\itsmstore4\wp-includes\class-wp-hook.php(292): YWSBS_Subscription_My_Account->show_subscription_action(Object(YWSBS_Subscription))
+#3 C:\xampp\htdocs\itsmstore4\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\itsmstore4\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\view-subscription.php in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-actions.php on line 90
+
+2021-08-24T03:49:46+00:00 CRITICAL Uncaught Error: Cannot use object of type Automattic\WooCommerce\Admin\Overrides\Order as array in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-actions.php:91
+Stack trace:
+#0 C:\xampp\htdocs\itsmstore4\wp-content\plugins\woocommerce\includes\wc-core-functions.php(346): include()
+#1 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\includes\class.ywsbs-subscription-my-account.php(533): wc_get_template('myaccount/ywsbs...', Array, '', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\itsmstore4\wp-includes\class-wp-hook.php(292): YWSBS_Subscription_My_Account->show_subscription_action(Object(YWSBS_Subscription))
+#3 C:\xampp\htdocs\itsmstore4\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\itsmstore4\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\view-subs in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-actions.php on line 91
+
+2021-08-24T05:04:35+00:00 CRITICAL syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-actions.php on line 110
+
+2021-08-24T05:04:57+00:00 CRITICAL syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-actions.php on line 110
+
+2021-08-24T05:30:05+00:00 CRITICAL Cannot redeclare YWSBS_Subscription::get_price_is_per() in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\includes\class.ywsbs-subscription.php on line 510
+
+2021-08-24T05:43:11+00:00 CRITICAL Cannot redeclare YWSBS_Subscription::get_price_is_per() in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\includes\class.ywsbs-subscription.php on line 510
+
+2021-08-24T06:35:19+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-actions.php on line 154
+
+2021-08-24T06:35:57+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-actions.php on line 115
+
+2021-08-24T06:36:39+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-actions.php on line 154
+
+2021-08-24T06:38:59+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-actions.php on line 154
+
+2021-08-24T07:13:47+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-actions.php on line 177
+
+2021-08-24T07:14:38+00:00 CRITICAL Invalid numeric literal in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-actions.php on line 155
+
+2021-08-24T07:14:44+00:00 CRITICAL Invalid numeric literal in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-actions.php on line 155
+
+2021-08-24T07:18:19+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-actions.php on line 181
+
+2021-08-24T07:18:23+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-actions.php on line 181
+
+2021-08-24T08:26:22+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-actions.php on line 154
+
+2021-08-24T08:31:08+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-actions.php on line 154
+
+2021-08-24T08:31:18+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-actions.php on line 154
+
+2021-08-24T09:51:31+00:00 CRITICAL Uncaught Error: Call to a member function has_status() on bool in C:\xampp\htdocs\itsmstore4\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php:739
+Stack trace:
+#0 C:\xampp\htdocs\itsmstore4\wp-includes\class-wp-hook.php(292): WC_Form_Handler::cancel_order('')
+#1 C:\xampp\htdocs\itsmstore4\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\itsmstore4\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\itsmstore4\wp-settings.php(582): do_action('wp_loaded')
+#4 C:\xampp\htdocs\itsmstore4\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\itsmstore4\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\itsmstore4\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\itsmstore4\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\itsmstore4\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php on line 739
+

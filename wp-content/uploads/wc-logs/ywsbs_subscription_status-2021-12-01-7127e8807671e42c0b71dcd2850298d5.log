@@ -1,0 +1,20 @@
+12-01-2021 @ 02:55:20 - ======================
+12-01-2021 @ 02:55:20 - Start expired cron at 2021-12-01 02:55:20
+12-01-2021 @ 02:55:20 - Search subscription with expired date < 2021-12-01 02:55:20
+12-01-2021 @ 02:55:20 - Found 0 subscriptions
+12-01-2021 @ 02:55:20 - ======================
+12-01-2021 @ 02:55:20 - ======================
+12-01-2021 @ 02:55:20 - Start expired cron at 2021-12-01 02:55:20
+12-01-2021 @ 02:55:20 - Search subscription with expired date < 2021-12-01 02:55:20
+12-01-2021 @ 02:55:20 - Found 0 subscriptions
+12-01-2021 @ 02:55:20 - ======================
+12-01-2021 @ 02:55:20 - ======================
+12-01-2021 @ 02:55:20 - Start resume orders cron at 2021-12-01 02:55:20
+12-01-2021 @ 02:55:20 - Search subscriptions to resume with expired pause date <  2021-12-01 02:55:20
+12-01-2021 @ 02:55:20 - Found 0 subscriptions
+12-01-2021 @ 02:55:20 - ======================
+12-01-2021 @ 02:55:21 - ===============
+12-01-2021 @ 02:55:21 - Start check suspended subscription at 2021-12-01 02:55:21
+12-01-2021 @ 02:55:21 - Search suspended subscriptions with Payment due date < 2021-11-11 02:55:21
+12-01-2021 @ 02:55:21 - Found 0 subscriptions
+12-01-2021 @ 02:55:21 - ================

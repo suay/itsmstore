@@ -1,0 +1,17 @@
+12-01-2021 @ 02:53:25 - ======================
+12-01-2021 @ 02:53:26 - Start renew order creation cron at 2021-12-01 02:53:26
+12-01-2021 @ 02:53:26 - Search subscriptions with Payment due date < 2021-12-02 02:53:25
+12-01-2021 @ 02:53:26 - Found 0 subscriptions
+12-01-2021 @ 02:53:26 - ======================
+12-01-2021 @ 02:53:26 - ===============
+12-01-2021 @ 02:53:26 - Start Payment Renews cron at 2021-12-01 02:53:26
+12-01-2021 @ 02:53:26 - Search renew order with date < 2021-11-30 02:53:26
+12-01-2021 @ 02:53:26 - Found 0 new renew orders
+12-01-2021 @ 02:53:26 - Found 0 failed renew orders
+12-01-2021 @ 02:53:26 - =======================
+12-01-2021 @ 02:55:21 - ===============
+12-01-2021 @ 02:55:21 - Start Payment Renews cron at 2021-12-01 02:55:21
+12-01-2021 @ 02:55:21 - Search renew order with date < 2021-11-30 02:55:21
+12-01-2021 @ 02:55:21 - Found 0 new renew orders
+12-01-2021 @ 02:55:21 - Found 0 failed renew orders
+12-01-2021 @ 02:55:21 - =======================

@@ -1,0 +1,4 @@
+2021-08-05T07:07:25+00:00 CRITICAL syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')' in C:\xampp\htdocs\itsmstore4\wp-content\plugins\woocommerce\includes\class-wc-checkout.php on line 1291
+
+2021-08-05T07:07:33+00:00 CRITICAL syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')' in C:\xampp\htdocs\itsmstore4\wp-content\plugins\woocommerce\includes\class-wc-checkout.php on line 1291
+

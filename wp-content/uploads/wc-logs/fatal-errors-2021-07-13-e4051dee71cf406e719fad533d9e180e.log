@@ -1,0 +1,61 @@
+2021-07-13T07:18:49+00:00 CRITICAL Uncaught Error: Class 'Mpdf\Config\ConfigVariables' not found in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\class.yith-woocommerce-pdf-invoice.php:1675
+Stack trace:
+#0 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\class.yith-woocommerce-pdf-invoice.php(1800): YITH_WooCommerce_Pdf_Invoice->generate_template_mpdf(Object(YITH_Invoice))
+#1 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\class.yith-woocommerce-pdf-invoice.php(1527): YITH_WooCommerce_Pdf_Invoice->generate_template(Object(YITH_Invoice), 'pdf')
+#2 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\class.yith-woocommerce-pdf-invoice.php(873): YITH_WooCommerce_Pdf_Invoice->create_file(Object(YITH_Invoice), 'pdf')
+#3 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\class.yith-woocommerce-pdf-invoice.php(279): YITH_WooCommerce_Pdf_Invoice->create_document('745 in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\class.yith-woocommerce-pdf-invoice.php on line 1675
+
+2021-07-13T07:23:22+00:00 CRITICAL Uncaught Error: Class 'Mpdf\Config\ConfigVariables' not found in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\class.yith-woocommerce-pdf-invoice.php:1675
+Stack trace:
+#0 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\class.yith-woocommerce-pdf-invoice.php(1800): YITH_WooCommerce_Pdf_Invoice->generate_template_mpdf(Object(YITH_Invoice))
+#1 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\class.yith-woocommerce-pdf-invoice.php(1527): YITH_WooCommerce_Pdf_Invoice->generate_template(Object(YITH_Invoice), 'pdf')
+#2 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\class.yith-woocommerce-pdf-invoice.php(873): YITH_WooCommerce_Pdf_Invoice->create_file(Object(YITH_Invoice), 'pdf')
+#3 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\class.yith-woocommerce-pdf-invoice.php(279): YITH_WooCommerce_Pdf_Invoice->create_document('745 in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\class.yith-woocommerce-pdf-invoice.php on line 1675
+
+2021-07-13T07:32:50+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::setFooter() in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\class.yith-woocommerce-pdf-invoice.php:1737
+Stack trace:
+#0 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\class.yith-woocommerce-pdf-invoice.php(1782): YITH_WooCommerce_Pdf_Invoice->generate_template_mpdf(Object(YITH_Invoice))
+#1 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\class.yith-woocommerce-pdf-invoice.php(1527): YITH_WooCommerce_Pdf_Invoice->generate_template(Object(YITH_Invoice), 'pdf')
+#2 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\class.yith-woocommerce-pdf-invoice.php(873): YITH_WooCommerce_Pdf_Invoice->create_file(Object(YITH_Invoice), 'pdf')
+#3 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\class.yith-woocommerce-pdf-invoice.php(279): YITH_WooCommerce_Pdf_Invoice->create_document('74 in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\class.yith-woocommerce-pdf-invoice.php on line 1737
+
+2021-07-13T07:37:47+00:00 CRITICAL Uncaught Mpdf\MpdfException: Cannot find TTF TrueType font file "Garuda.ttf" in configured font directories. in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Fonts\FontFileFinder.php:33
+Stack trace:
+#0 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Mpdf.php(3852): Mpdf\Fonts\FontFileFinder->findFontFile('Garuda.ttf')
+#1 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Mpdf.php(4145): Mpdf\Mpdf->AddFont('garuda', '')
+#2 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Mpdf.php(18025): Mpdf\Mpdf->SetFont('garuda', '', 10.5, false)
+#3 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Tag\BlockTag.php(388): Mpdf\Mpdf->setCSS(Array, 'BLOCK', 'P')
+#4 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoi in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Fonts\FontFileFinder.php on line 33
+
+2021-07-13T07:46:19+00:00 CRITICAL Uncaught Mpdf\MpdfException: Cannot find TTF TrueType font file "Garuda.ttf" in configured font directories. in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Fonts\FontFileFinder.php:33
+Stack trace:
+#0 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Mpdf.php(3852): Mpdf\Fonts\FontFileFinder->findFontFile('Garuda.ttf')
+#1 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Mpdf.php(4145): Mpdf\Mpdf->AddFont('garuda', '')
+#2 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Mpdf.php(18025): Mpdf\Mpdf->SetFont('garuda', '', 10.5, false)
+#3 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Tag\InlineTag.php(56): Mpdf\Mpdf->setCSS(Array, 'INLINE')
+#4 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-p in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Fonts\FontFileFinder.php on line 33
+
+2021-07-13T08:08:37+00:00 CRITICAL Uncaught Mpdf\MpdfException: Cannot find TTF TrueType font file "Garuda.ttf" in configured font directories. in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Fonts\FontFileFinder.php:33
+Stack trace:
+#0 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Mpdf.php(3852): Mpdf\Fonts\FontFileFinder->findFontFile('Garuda.ttf')
+#1 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Mpdf.php(4145): Mpdf\Mpdf->AddFont('garuda', '')
+#2 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Mpdf.php(18025): Mpdf\Mpdf->SetFont('garuda', '', 13.5, false)
+#3 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Tag\InlineTag.php(56): Mpdf\Mpdf->setCSS(Array, 'INLINE')
+#4 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-p in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Fonts\FontFileFinder.php on line 33
+
+2021-07-13T08:09:01+00:00 CRITICAL Uncaught Mpdf\MpdfException: Cannot find TTF TrueType font file "Garuda.ttf" in configured font directories. in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Fonts\FontFileFinder.php:33
+Stack trace:
+#0 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Mpdf.php(3852): Mpdf\Fonts\FontFileFinder->findFontFile('Garuda.ttf')
+#1 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Mpdf.php(4145): Mpdf\Mpdf->AddFont('garuda', '')
+#2 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Mpdf.php(10777): Mpdf\Mpdf->SetFont('garuda')
+#3 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Mpdf.php(18023): Mpdf\Mpdf->SetDefaultFont('garuda')
+#4 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Fonts\FontFileFinder.php on line 33
+
+2021-07-13T08:10:56+00:00 CRITICAL Uncaught Mpdf\MpdfException: Cannot find TTF TrueType font file "Garuda.ttf" in configured font directories. in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Fonts\FontFileFinder.php:33
+Stack trace:
+#0 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Mpdf.php(3852): Mpdf\Fonts\FontFileFinder->findFontFile('Garuda.ttf')
+#1 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Mpdf.php(4145): Mpdf\Mpdf->AddFont('garuda', '')
+#2 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Mpdf.php(10777): Mpdf\Mpdf->SetFont('garuda')
+#3 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Mpdf.php(1474): Mpdf\Mpdf->SetDefaultFont('garuda')
+#4 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\class.yith-w in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-pdf-invoice-premium\lib\vendor\mpdf\mpdf\src\Fonts\FontFileFinder.php on line 33
+

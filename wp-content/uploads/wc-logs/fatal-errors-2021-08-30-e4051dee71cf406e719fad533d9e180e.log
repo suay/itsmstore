@@ -1,0 +1,36 @@
+2021-08-30T08:27:46+00:00 CRITICAL Uncaught Error: Call to a member function get_currency_code() on null in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-actions.php:118
+Stack trace:
+#0 C:\xampp\htdocs\itsmstore4\wp-content\plugins\woocommerce\includes\wc-core-functions.php(346): include()
+#1 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\includes\class.ywsbs-subscription-my-account.php(533): wc_get_template('myaccount/ywsbs...', Array, '', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\itsmstore4\wp-includes\class-wp-hook.php(292): YWSBS_Subscription_My_Account->show_subscription_action(Object(YWSBS_Subscription))
+#3 C:\xampp\htdocs\itsmstore4\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\itsmstore4\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\view-subscription.php(96): do_acti in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-actions.php on line 118
+
+2021-08-30T08:32:33+00:00 CRITICAL Uncaught Error: Call to a member function get_currency_code() on null in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-actions.php:118
+Stack trace:
+#0 C:\xampp\htdocs\itsmstore4\wp-content\plugins\woocommerce\includes\wc-core-functions.php(346): include()
+#1 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\includes\class.ywsbs-subscription-my-account.php(533): wc_get_template('myaccount/ywsbs...', Array, '', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\itsmstore4\wp-includes\class-wp-hook.php(292): YWSBS_Subscription_My_Account->show_subscription_action(Object(YWSBS_Subscription))
+#3 C:\xampp\htdocs\itsmstore4\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\itsmstore4\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\view-subscription.php(96): do_acti in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-actions.php on line 118
+
+2021-08-30T08:32:47+00:00 CRITICAL Uncaught Error: Call to a member function get_currency_code() on null in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-actions.php:118
+Stack trace:
+#0 C:\xampp\htdocs\itsmstore4\wp-content\plugins\woocommerce\includes\wc-core-functions.php(346): include()
+#1 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\includes\class.ywsbs-subscription-my-account.php(533): wc_get_template('myaccount/ywsbs...', Array, '', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\itsmstore4\wp-includes\class-wp-hook.php(292): YWSBS_Subscription_My_Account->show_subscription_action(Object(YWSBS_Subscription))
+#3 C:\xampp\htdocs\itsmstore4\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\itsmstore4\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\view-subscription.php(96): do_acti in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-actions.php on line 118
+
+2021-08-30T08:33:55+00:00 CRITICAL Uncaught Error: Call to a member function get_currency_code() on null in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-actions.php:118
+Stack trace:
+#0 C:\xampp\htdocs\itsmstore4\wp-content\plugins\woocommerce\includes\wc-core-functions.php(346): include()
+#1 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\includes\class.ywsbs-subscription-my-account.php(533): wc_get_template('myaccount/ywsbs...', Array, '', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\itsmstore4\wp-includes\class-wp-hook.php(292): YWSBS_Subscription_My_Account->show_subscription_action(Object(YWSBS_Subscription))
+#3 C:\xampp\htdocs\itsmstore4\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\itsmstore4\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\view-subscription.php(96): do_acti in C:\xampp\htdocs\itsmstore4\wp-content\plugins\yith-woocommerce-subscription-premium\templates\myaccount\ywsbs-subscription-actions.php on line 118
+

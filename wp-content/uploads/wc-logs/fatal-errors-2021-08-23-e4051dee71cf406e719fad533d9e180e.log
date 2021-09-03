@@ -1,0 +1,12 @@
+2021-08-23T08:11:03+00:00 CRITICAL Uncaught Error: Call to a member function get_cancel_order_url_raw() on null in C:\xampp\htdocs\itsmstore4\wp-content\plugins\2c2p-redirect-api-for-woocommerce\2c2p.php:570
+Stack trace:
+#0 C:\xampp\htdocs\itsmstore4\wp-includes\class-wp-hook.php(292): WC_Gateway_2c2p->check_2c2p_response('')
+#1 C:\xampp\htdocs\itsmstore4\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\itsmstore4\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\itsmstore4\wp-content\plugins\woocommerce\includes\class-wc-api.php(161): do_action('woocommerce_api...')
+#4 C:\xampp\htdocs\itsmstore4\wp-includes\class-wp-hook.php(292): WC_API->handle_api_requests(Object(WP))
+#5 C:\xampp\htdocs\itsmstore4\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\itsmstore4\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\itsmstore4\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#8 C:\xampp\htdocs\itsm in C:\xampp\htdocs\itsmstore4\wp-content\plugins\2c2p-redirect-api-for-woocommerce\2c2p.php on line 570
+
